@@ -21,7 +21,7 @@ async function main() {
 
     // Clean HTML from description
     const cleanDesc = description
-      ? description.replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').trim().slice(0, 200)
+      ? decodeEntities(description.replace(/<[^>]*>/g, "")).trim().slice(0, 200)
       : null;
 
     articles.push({
@@ -54,11 +54,17 @@ function extract(text, tag) {
 
 function decodeEntities(str) {
   return str
+    .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(parseInt(num)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'");
+    .replace(/&apos;/g, "'")
+    .replace(/&rsquo;/g, "\u2019")
+    .replace(/&lsquo;/g, "\u2018")
+    .replace(/&ndash;/g, "\u2013")
+    .replace(/&mdash;/g, "\u2014");
 }
 
 main().catch((err) => {
