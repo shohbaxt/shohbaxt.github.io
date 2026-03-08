@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shohbaxt.github.io/sitemap.xml
