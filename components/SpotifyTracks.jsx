@@ -43,7 +43,7 @@ export default function SpotifyTracks() {
     <>
       {/* Mobile cards */}
       <div className="hide-desktop">
-        {songs.map((t, i) => (
+        {songs.slice(0, 10).map((t, i) => (
           <a key={i} href={t.url} target="_blank" rel="noopener noreferrer" className="mini-card" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
               <span style={{ fontWeight: "bold", fontSize: "13px" }}>{t.track}</span>
@@ -64,7 +64,7 @@ export default function SpotifyTracks() {
             <th>Track</th>
             <th>Artist</th>
             <th>Album</th>
-            <th>Added</th>
+            <th style={{ whiteSpace: "nowrap" }}>Added</th>
           </tr>
         </thead>
         <tbody>
@@ -78,7 +78,7 @@ export default function SpotifyTracks() {
               </td>
               <td>{t.artist}</td>
               <td style={{ fontStyle: "italic", color: "var(--muted)" }}>{t.album}</td>
-              <td className="text-small" style={{ color: "var(--faint)" }}>{timeAgo(t.added)}</td>
+              <td className="text-small" style={{ color: "var(--faint)", whiteSpace: "nowrap" }}>{timeAgo(t.added)}</td>
             </tr>
           ))}
         </tbody>

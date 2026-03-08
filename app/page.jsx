@@ -3,7 +3,7 @@ import Link from "next/link";
 const homeLinks = [
   { href: "/projects", icon: "\u25BA", label: "Projects", desc: "Tripz, Coffee.Co, and more" },
   { href: "/articles", icon: "\u25BA", label: "Articles", desc: "DevOps, payments, SEO, business" },
-  { href: "/now-playing", icon: "\u266B", label: "Now Playing", desc: "Live from Spotify" },
+  { href: "/now-playing", icon: "\u266B", label: "Liked Songs", desc: "My recent favorite tracks on Spotify" },
   { href: "/running", icon: "\u25BA", label: "Running", desc: "Stats via Strava" },
   { href: "/movies", icon: "\u25BA", label: "Movie Log", desc: "What I've been watching" },
   { href: "/places", icon: "\u25B2", label: "Hiking", desc: "My hiking activity from weekends" },

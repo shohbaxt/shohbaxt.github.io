@@ -2,8 +2,8 @@ import { SITE_URL } from "@/lib/data";
 import SpotifyTracks from "@/components/SpotifyTracks";
 
 export const metadata = {
-  title: "Now Playing",
-  description: "What Shohbaxt is listening to — recently played tracks from Spotify.",
+  title: "Liked Songs",
+  description: "Shohbaxt's liked songs on Spotify — favorite tracks and music taste.",
   alternates: { canonical: `${SITE_URL}/now-playing` },
 };
 
@@ -11,9 +11,9 @@ export default function NowPlayingPage() {
   return (
     <div>
       <h2 className="section-title">
-        Now Playing
+        Liked Songs
         <span className="text-small" style={{ fontWeight: "normal", color: "var(--faint)", marginLeft: "8px" }}>
-          via Spotify API
+          via Spotify
         </span>
       </h2>
 
