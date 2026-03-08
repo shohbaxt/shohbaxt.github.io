@@ -332,6 +332,46 @@ hr.dashed {
   color: var(--muted);
 }
 
+/* Spotify button */
+.spotify-btn {
+  display: inline-block;
+  background: #1db954;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.spotify-btn:visited {
+  color: #fff;
+}
+
+.spotify-btn:hover {
+  background: #1ed760;
+}
+
+/* Tab buttons */
+.tab-btn {
+  background: var(--tag-bg);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 3px 10px;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.tab-btn.tab-active {
+  background: var(--surface);
+  color: var(--text);
+  font-weight: bold;
+  border-color: var(--border-light);
+}
+
 .hide-mobile { display: none; }
 
 @media (min-width: 641px) {
