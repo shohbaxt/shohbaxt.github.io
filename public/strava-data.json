@@ -1,8 +1,15 @@
 {
-  "totalRuns": 39,
-  "totalKm": "371",
-  "recentKm": "25.4",
+  "totalRuns": 40,
+  "totalKm": "376",
+  "recentKm": "30.4",
   "recentRuns": [
+    {
+      "name": "Run",
+      "distance": "5.0 km",
+      "pace": "6:53 /km",
+      "date": "May 15",
+      "elapsed": "34m 30s"
+    },
     {
       "name": "Run",
       "distance": "10.0 km",
@@ -67,5 +74,5 @@
       "elapsed": "1h 12m"
     }
   ],
-  "updated": "2026-05-15T14:22:28.369Z"
+  "updated": "2026-05-15T19:46:42.588Z"
 }
