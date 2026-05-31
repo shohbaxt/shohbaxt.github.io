@@ -1,7 +1,7 @@
 {
   "totalRuns": 40,
   "totalKm": "376",
-  "recentKm": "25.4",
+  "recentKm": "20.0",
   "recentRuns": [
     {
       "name": "Run",
@@ -74,5 +74,5 @@
       "elapsed": "1h 12m"
     }
   ],
-  "updated": "2026-05-31T13:59:18.518Z"
+  "updated": "2026-05-31T19:25:59.217Z"
 }
