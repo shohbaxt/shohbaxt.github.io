@@ -1,6 +1,20 @@
 {
   "songs": [
     {
+      "track": "SICKO MODE",
+      "artist": "Travis Scott",
+      "album": "ASTROWORLD",
+      "added": "2026-05-06T04:26:59Z",
+      "url": "https://open.spotify.com/track/2xLMifQCjDGFmkHkpNLD9h"
+    },
+    {
+      "track": "Dracula - JENNIE Remix",
+      "artist": "Tame Impala, JENNIE",
+      "album": "Dracula (Remix)",
+      "added": "2026-05-06T04:26:58Z",
+      "url": "https://open.spotify.com/track/5yvVYFDUpbnjcnRBgjwTzM"
+    },
+    {
       "track": "Babydoll",
       "artist": "OutsU",
       "album": "Babydoll (Slowed)",
@@ -125,21 +139,7 @@
       "album": "Rebel Yell",
       "added": "2026-01-20T12:36:03Z",
       "url": "https://open.spotify.com/track/0pUVeEgZuNyFzIMKp67RbS"
-    },
-    {
-      "track": "Wind Of Change",
-      "artist": "Scorpions",
-      "album": "Crazy World",
-      "added": "2026-01-20T12:24:36Z",
-      "url": "https://open.spotify.com/track/3ovjw5HZZv43SxTwApooCM"
-    },
-    {
-      "track": "Bitter Sweet Symphony - Remastered 2016",
-      "artist": "The Verve",
-      "album": "Urban Hymns (Remastered 2016)",
-      "added": "2026-01-20T11:42:38Z",
-      "url": "https://open.spotify.com/track/57iDDD9N9tTWe75x6qhStw"
     }
   ],
-  "updated": "2026-04-06T17:01:39.704Z"
+  "updated": "2026-06-04T15:30:31.643Z"
 }
