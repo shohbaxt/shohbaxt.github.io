@@ -1,6 +1,13 @@
 {
   "songs": [
     {
+      "track": "Paparazzi - Instrumental",
+      "artist": "Xzibit",
+      "album": "Paparazzi",
+      "added": "2026-06-29T16:02:44Z",
+      "url": "https://open.spotify.com/track/1YPjRsqsEi8LwIuaLamCu3"
+    },
+    {
       "track": "About A Girl",
       "artist": "Nirvana",
       "album": "Bleach",
@@ -132,14 +139,7 @@
       "album": "Presenting the Fabulous Ronettes Featuring Veronica",
       "added": "2026-01-26T16:04:38Z",
       "url": "https://open.spotify.com/track/1WN4uNclrDuczTO3bCr8s1"
-    },
-    {
-      "track": "Piano Man",
-      "artist": "Billy Joel",
-      "album": "Piano Man (Legacy Edition)",
-      "added": "2026-01-26T15:37:33Z",
-      "url": "https://open.spotify.com/track/70C4NyhjD5OZUMzvWZ3njJ"
     }
   ],
-  "updated": "2026-06-29T11:12:19.777Z"
+  "updated": "2026-06-29T20:07:22.918Z"
 }
